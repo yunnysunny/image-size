@@ -1,0 +1,334 @@
+.wraper{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: #edf3f8;
+}
+.borderBottom{
+    border-bottom: solid 1px #d5dadf;
+}
+.wraperTitle{
+    height: 49px;
+    line-height: 49px;
+    margin-bottom: 28px;
+}
+.wraperTitle li{
+    float: left;
+    margin-right: 1.2%;
+}
+.wraperTitle li a{
+    color: #000000;
+}
+.wraperTitle li a.colorBlue{
+    color: #59a6d6;
+}
+.bannerItem{
+    width: 100%;
+    background-color: #ffffff;
+}
+.nav{
+    width: 95.6%;
+    padding-left: 1.7%;
+    padding-right: 2.7%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #ffffff; background-color: #75a1be;
+}
+.nav a{
+    display: block;
+    color: #ffffff;
+    padding-left: 3%;
+    background: url("../images/icon03.png") no-repeat left center;
+}
+.navHover a{
+    background: url("../images/icon03Hover.png") no-repeat left center;
+}
+.nav a input.save{
+    background: none;
+    border: none;
+    outline: none;
+    margin-top: 19px;
+    float: right;
+    font-size: 12px;
+    color: #ffffff;
+}
+.nav a.hover span{
+    background-color: #334550;
+}
+.b_i_companyName{
+    padding-top: 53px;
+    padding-bottom: 52px;
+    font-size: 14px;
+}
+.b_i_companyName li{
+    height: 37px;
+    margin-bottom: 19px;
+    line-height: 37px;
+}
+.b_i_companyName li label,.b_i_ca_form>li>label,.b_i_operatingRangeItemTitle,.b_i_other ul li label{
+    float: left;
+    margin-right: 2.2%;
+    width: 15%;
+    text-align: right;
+    color: #000000;
+}
+.radioMargin{
+    line-height: 37px;
+}
+.radioMargin input[type="radio"]{
+    vertical-align: middle;
+    margin-right: 1.1%;
+}
+.b_i_companyName li input[type="text"],.b_i_ca_select select,.b_i_other ul li input{
+    outline: none;
+    border: none;
+    background: none;
+    border: solid 1px #dedede;
+    height: 35px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-indent: 6px;
+}
+.radioMarginLeft{
+    margin-left: 4%;
+}
+.radioMarginLeft02{
+    margin-left: 3%;
+}
+.b_i_cn_attention{
+    font-size: 12px;
+    color: #bf9751;
+}
+.alternativeName input{
+    width: 24%;
+    margin-right: 1.5%;
+}
+.addIocn{
+    background: url("../images/addIcon.png") no-repeat left center;
+    padding: 11px;
+}
+.inputWidth01{
+    width: 58%;
+}
+.inputWidth02{
+    width: 24%;
+}
+.inputWidth03{
+    width: 19%;
+}
+.b_i_companyAddress{
+    padding-top: 58px;
+    padding-bottom: 42px;
+}
+.b_i_ca_form{
+    font-size: 14px;
+    color: #000000;
+}
+.b_i_ca_form>li{
+    margin-bottom: 12px;
+    line-height: 37px;
+}
+.b_i_ca_form>li.radioMarginBottom{
+    margin-bottom: 6px;
+}
+.b_i_ca_form>li.b_i_ca_select{
+    margin-bottom: 29px;
+}
+.b_i_ca_select select{
+    width: 13%;
+    background: url("../images/selectIocn.png") no-repeat;
+    background-position: 96% 14px;
+    margin-right: 1.2%;
+}
+.ownAdress{
+    margin-left: 17%;
+    width: 75%;
+    padding-top: 27px;
+    padding-bottom: 26px;
+    background-color: #f2f7fa;
+    margin-bottom: 34px;
+}
+.ownAdress>ul>li span{
+    display: block;
+    float: left;
+    width: 45%;
+}
+.ownAdress>ul>li span.spanMrgin{
+    margin-right: 7%;
+}
+.ownAdress>ul>li span label{
+    float: left;
+    width: 36%;
+    line-height: 30px;
+    margin-right: 2.2%;
+    text-align: right;
+}
+.ownAdress>ul>li span input,.ownAdress>ul>li span select{
+    width: 60%;
+    height: 28px;
+    border: none;
+    background: none;
+    outline: none;
+    text-indent: 6px;
+    border: solid 1px #dedede;
+}
+.ownAdress>ul>li span select{
+    width: 60.5%;
+    height: 30px;
+    background: url("../images/selectIocn.png") no-repeat;
+    background-position: 96% 11px;
+    margin-right: 1.2%;
+}
+.ownAdress>ul>li span input.inputWidth04{
+    width: 49%;
+}
+.ownAdress>ul>li span input.inputWidth05{
+    width: 42%;
+}
+.ownAdress>ul>li span input.inputWidth06{
+    width: 49%;
+}
+.ownAdress>ul>li span input.inputWidth07{
+    width: 24%;
+}
+.ownAdress>ul>li span label.laelWidth01{
+    width: 48%;
+}
+.ownAdress>ul>li span label.laelWidth02{
+    width: 20%;
+}
+.ownAdress>ul>li span.spanWidth01{
+    width: 61.5%;
+}
+.ownAdress>ul>li span.spanWidth02{
+    width: 35%;
+}
+.inputWidth08,.contactCont li input{
+    width: 34%;
+    outline: none;
+    border: none;
+    background: none;
+    border: solid 1px #dedede;
+    height: 35px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-indent: 6px;
+}
+.b_i_ca_form>li.liMarginBottom{
+    margin-bottom: 21px;
+}
+.contactCont{
+    padding-left: 9.7%;
+}
+.contactCont li{
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+}
+.contactCont li.marginNone{
+    margin-left: 0%;
+}
+.contactCont li.marginNone label{
+    margin-left: 3.8%;
+    width: 21%;
+    text-align: left;
+}
+.contactCont li label{
+    float: left;
+    margin-right: 3%;
+}
+.contactCont li.liWidth{
+    width: 27%;
+}
+.contactCont li input.inputWidth09{
+    width: 70%;
+}
+.contactCont li input.inputWidth10{
+    width: 65%;
+}
+.contactCont li input.inputWidth11{
+    width: 50%;
+}
+.b_i_operatingRangeItemWraper{
+    padding-top: 50px;
+    padding-bottom: 58px;
+}
+.b_i_operatingRangeItem{
+    font-size: 14px;
+    color: #000;
+}
+.b_i_operatingRangeItemTitle,.b_i_operatingRangeItemCont{
+    float: left;
+}
+.b_i_operatingRangeItemCont{
+    width: 80%;
+}
+.b_i_operatingRangeItemCont span{
+    display: block;
+    float: left;
+    width: 10%;
+    margin-right: 2.4%;
+    margin-bottom: 20px;
+}
+.b_i_operatingRangeItemCont span input{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 8%;
+}
+.b_i_or_choiceArea{
+    width: 76%;
+    padding:15px  2%;
+    height: 21px;
+    background-color: #f2f7fa;
+    margin-left: 17.2%;
+}
+.b_i_or_choiceArea ul li{
+    cursor: pointer;
+    float: left;
+    width: 8%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 1%;
+    background: url("../images/closeBtn.png") no-repeat;
+    background-position: 97% 1px;
+}
+.b_i_or_choiceArea ul li.bgBlue{
+    background-color: #7eb5d8;
+}
+.b_i_or_choiceArea ul li.bgRed{
+    background-color: #ff8f8f;
+}
+.b_i_other{
+    padding-top: 41px;
+    padding-bottom: 39px;
+    font-size: 14px;
+    color: #000000;
+}
+.b_i_other ul li{
+    float: left;
+    width: 30%;
+}
+.b_i_other ul li label{
+    line-height: 37px;
+    width: 39%;
+    text-align: right;
+}
+.b_i_other ul li label.laelWidth03{
+    width: 20%;
+}
+.b_i_other ul li input{
+    width: 56%;
+    height: 35px;
+    line-height: 35px;
+}
+
+input[type="file"] {
+    display: none;
+}

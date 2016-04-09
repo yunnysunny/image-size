@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>图片缩放</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <script> if (typeof (window.require) == 'undefined') {require = function(){}}</script>
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+<div class="wraper clearfix">
+    <div style="clear: both;height: 0px;font-size: 0px;line-height: 0"></div>
+    <div class="bannerItem clearfix">
+        <form class="contentForm" id="imgForm">
+            <h3 class="nav"><a><input type="submit" class="save" value="确定" />图片缩放</a></h3>
+            <div class="b_i_companyName">
+                <ul>
+                    <li>
+                        <input type="button" class="file-button" value="选择原图">
+                        <input id="originFile" type="file" accept=".png,.jpg,.jpeg" class="file-input" />
+                        <input type="text" name="originPath" placeholder="原图片地址" class="inputWidth01"/>
+                        <label>原图片：</label>
+                    </li>
+                    <li>
+                        <input type="button" class="file-button" value="保存路径">
+                        <input id="saveDir" type="file" nwdirectory  class="file-input"  />
+                        <input type="text" name="savePath" placeholder="保存路径地址" class="inputWidth01"/>
+                        <label>保存路径：</label>
+                    </li>
+                    <li>
+                        <input type="number" class="inputWidth03 size-number" min="1" name="width"/>　px
+                        <label>高度：</label>
+                    </li>
+                    <li>
+                        <input type="number" class="inputWidth03 size-number" min="1" name="height"/>　px
+                        <label>宽度：</label>
+                    </li>
+                    <li><input type="checkbox" name="forceRatio" checked><label>保持比例：</label></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+
+</div>
+</body>
+ </html>
