@@ -1,6 +1,12 @@
 {
-    "dependencies": {
-        "grunt": "*",
-        "grunt-node-webkit-builder":"*"
-    }
+  "dependencies": {
+    "grunt": "*",
+    "grunt-node-webkit-builder": "*",
+    "snyk": "^1.70.3"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
