@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.2
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - grunt-node-webkit-builder > node-webkit-builder > request > hawk:
+        patched: '2018-03-25T02:44:55.384Z'
+  'npm:minimatch:20160620':
+    - grunt-node-webkit-builder > node-webkit-builder > simple-glob > minimatch:
+        patched: '2018-03-25T02:44:55.384Z'
+    - grunt-node-webkit-builder > node-webkit-builder > archiver > glob > minimatch:
+        patched: '2018-03-25T02:44:55.384Z'
+    - grunt-node-webkit-builder > node-webkit-builder > simple-glob > glob > minimatch:
+        patched: '2018-03-25T02:44:55.384Z'
+  'npm:request:20160119':
+    - grunt-node-webkit-builder > node-webkit-builder > request:
+        patched: '2018-03-25T02:44:55.384Z'
+  'npm:semver:20150403':
+    - grunt-node-webkit-builder > node-webkit-builder > semver:
+        patched: '2018-03-25T02:44:55.384Z'
+    - grunt-node-webkit-builder > node-webkit-builder > update-notifier > semver:
+        patched: '2018-03-25T02:44:55.384Z'
