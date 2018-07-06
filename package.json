@@ -2,7 +2,7 @@
   "dependencies": {
     "grunt": "*",
     "grunt-node-webkit-builder": "*",
-    "snyk": "^1.87.0"
+    "snyk": "^1.88.1"
   },
   "scripts": {
     "snyk-protect": "snyk protect",

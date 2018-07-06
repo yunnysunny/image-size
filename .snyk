@@ -27,3 +27,9 @@ patch:
   'npm:tunnel-agent:20170305':
     - grunt-node-webkit-builder > node-webkit-builder > request > tunnel-agent:
         patched: '2018-06-28T21:09:35.514Z'
+  'npm:http-signature:20150122':
+    - grunt-node-webkit-builder > node-webkit-builder > request > http-signature:
+        patched: '2018-07-05T21:04:32.273Z'
+  'npm:lodash:20180130':
+    - grunt-node-webkit-builder > node-webkit-builder > plist > xmlbuilder > lodash:
+        patched: '2018-07-05T21:04:32.273Z'
