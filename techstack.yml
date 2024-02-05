@@ -1,0 +1,114 @@
+repo_name: yunnysunny/image-size
+report_id: 63a8780c1fcbf6624497a88ee10558d3
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-05T15:54:38+00:00'
+requested_by: yunnysunny
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/yunnysunny/image-size
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/yunnysunny/image-size
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yunnysunny/image-size
+  detection_source: Repo Metadata
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/yunnysunny/image-size/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2018-03-25 02:44:55.000000000 Z
+- name: Snyk
+  description: Automatically find &amp; fix vulnerabilities in your code, containers,
+    Kubernetes, and Terraform
+  website_url: https://snyk.io/
+  version: 1.319.2
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5326/6p1SNAJu.jpg
+  detection_source_url: https://github.com/yunnysunny/image-size/blob/master/package.json
+  detection_source: ".snyk"
+  last_updated_by: snyk-bot
+  last_updated_on: 2018-03-25 02:44:55.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/yunnysunny/image-size/blob/master/www/package.json
+  detection_source: www/package.json
+  last_updated_by: yunnysunny
+  last_updated_on: 2016-04-09 06:52:20.000000000 Z
+- name: ImageMagick
+  description: A software suite to create, edit, compose, or convert bitmap images
+  website_url: http://www.imagemagick.org
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2566/nUX4vSWJ_400x400.png
+  detection_source_url: https://github.com/yunnysunny/image-size/blob/master/www/package.json
+  detection_source: www/package.json
+  last_updated_by: yunnysunny
+  last_updated_on: 2016-04-09 06:52:20.000000000 Z
+- name: log4js
+  description: How people build software
+  website_url: http://stritti.github.io/log4js/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3962/pBeeJQDQ_normal.png
+  detection_source_url: https://github.com/yunnysunny/image-size/blob/master/www/package.json
+  detection_source: www/package.json
+  last_updated_by: yunnysunny
+  last_updated_on: 2016-04-09 06:52:20.000000000 Z
+- name: log4js
+  description: Port of Log4js to work with node
+  package_url: https://www.npmjs.com/log4js
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16355/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/yunnysunny/image-size/blob/master/www/package.json
+  detection_source: www/package.json
+  last_updated_by: yunnysunny
+  last_updated_on: 2016-04-09 06:52:20.000000000 Z
